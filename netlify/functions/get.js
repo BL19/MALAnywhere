@@ -2,7 +2,6 @@ import axios from 'axios'
 
 export const handler = async (event, context) => {
   let url = "http://api.myanimelist.net/v2" + event.queryStringParameters.url;
-  console.log(url)
   try {
     // Filter out headers
     let filterOut = ["host", "x-forwarded-for", "client-ip"]

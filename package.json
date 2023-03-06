@@ -1,15 +1,16 @@
 {
-  "name": "netlify-corsanywhere",
+  "name": "malanywhere",
   "version": "1.0.0",
-  "description": "",
+  "description": "A netlify serverless function to forward requests to mal without having to worry about CORS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "netlify dev"
   },
   "keywords": [
     "netlify",
     "cors",
-    "fetch"
+    "fetch",
+    "myanimelist"
   ],
   "author": "BL19",
   "license": "GNU GPLv3.0",
